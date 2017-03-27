@@ -20,17 +20,17 @@ This project will be implemented with the following technologies:
 
 # Core Functionality
 
-[ ] Start, pause and reset the game.
-[ ] Move player ship and shoot with the keyboard.
-[ ] Player shots will destroy enemy ships.
-[ ] Enemy ships move and shoot.
+- [ ] Start, pause and reset the game.
+- [ ] Move player ship and shoot with the keyboard.
+- [ ] Player shots will destroy enemy ships.
+- [ ] Enemy ships move and shoot.
 
 # Extras
 
-[ ] Background Music.
-[ ] Players can choose different ship types.
-[ ] Lives/Game Over.
-[ ] Points and extra lives.
-[ ] Levels.
-[ ] Enemy ships explode.
-[ ] Power-ups.
+- [ ] Background Music.
+- [ ] Players can choose different ship types.
+- [ ] Lives/Game Over.
+- [ ] Points and extra lives.
+- [ ] Levels.
+- [ ] Enemy ships explode.
+- [ ] Power-ups.
