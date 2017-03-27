@@ -1,14 +1,14 @@
-#### Imperial Invaders
+# Imperial Invaders
 
-### Background
+## Background
 
 An in-browser game based on the classic arcade game [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders), with a Star Wars twist!
 
-## Instructions
+### Instructions
 
 Move your ship back and forth with the left and right arrow keys. Shoot with the space bar.
 
-### Architecture and Technologies
+## Architecture and Technologies
 
 This project will be implemented with the following technologies:
 
@@ -16,16 +16,16 @@ This project will be implemented with the following technologies:
 * `Easel.js` with `HTML5 Canvas` for DOM manipulation and rendering.
 * Webpack to bundle and serve up the various scripts.
 
-### Functionality & MVP
+## Functionality & MVP
 
-# Core Functionality
+#### Core Functionality
 
 - [ ] Start, pause and reset the game.
 - [ ] Move player ship and shoot with the keyboard.
 - [ ] Player shots will destroy enemy ships.
 - [ ] Enemy ships move and shoot.
 
-# Extras
+#### Extras
 
 - [ ] Background Music.
 - [ ] Players can choose different ship types.
