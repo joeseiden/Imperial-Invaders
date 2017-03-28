@@ -1,10 +1,9 @@
 const path = require('path');
 
 module.exports = {
-  entry: "lib/main.js",
+  entry: "./lib/main.js",
   output: {
-    path: path.resolve(__dirname, 'assets'),
-    file: 'bundle.js'
+    filename: './lib/bundle.js'
   },
   devtool: 'source-map',
   module: {
@@ -12,7 +11,7 @@ module.exports = {
       {
         test: [/\.jsx?$/, /\.js?$/],
         exclude: /node_modules/,
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
           presets: ['es2015']
         }
