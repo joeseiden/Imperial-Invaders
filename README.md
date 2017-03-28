@@ -12,7 +12,7 @@ Move your ship back and forth with the left and right arrow keys. Shoot with the
 
 This game will be comprised of a single screen with the game canvas, flanked by game instructions and info, with links to my LinkedIn and GitHub pages on the bottom.
 
-![wireframes](./assets/images/Imperial Invaders Wireframe.jpg)
+![wireframes](./assets/images/Imperial Invaders Wireframe.png)
 
 ## Architecture and Technologies
 
