@@ -1,0 +1,23 @@
+{
+  "name": "Imperial-Invaders",
+  "version": "1.0.0",
+  "description": "## Background",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeseiden/Imperial-Invaders.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeseiden/Imperial-Invaders/issues"
+  },
+  "homepage": "https://github.com/joeseiden/Imperial-Invaders#readme",
+  "dependencies": {
+    "babel-loader": "^6.4.1"
+  }
+}
