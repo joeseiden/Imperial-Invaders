@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Imperial Invaders</title>
+    <link href="https://fonts.googleapis.com/css?family=Kanit:800i|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="styling.css">
   </head>
   <body>
@@ -13,16 +14,35 @@
     <script type="application/javascript" src="lib/bundle.js"></script>
     <div class="everything-container">
       <div class="game-info">
-        Game info goes here
+        <label for="story">
+          Story
+        </label>
+        <div id="story" class="game-story">
+          You play a lone X-Wing pilot ambushed by a squadron of TIE Fighters on a scouting mission for the Rebellion. Can you fight your way through the Imperial fighter squadron and escape to hyperspace?
+        </div>
+        <label for="desc">
+          About
+        </label>
+        <div id="desc">
+          Imperial Invaders is a browser based game inspired by the classic arcade game, Space Invaders. It was built using Vanilla JavaScript rendered on a single HTML5 canvas element .
+        </div>
       </div>
       <div class="game-container">
         <div class="game-title">
           IMPERIAL INVADERS
         </div>
         <canvas id="game" width="400" height="500"></canvas>
+        <span class="author-info">My info and links go here</span>
       </div>
-      <div class="game-instructions">
-        Use the left and right arrow keys to move. Spacebar to shoot.
+      <div class="game-instructions-container">
+        <label for="instructions">
+          Instructions
+        </label>
+        <div id="instructions">
+          Use ⬅️ and ➡️  to move
+          <br>
+          Use the spacebar to shoot
+        </div>
       </div>
     </div>
   </body>

@@ -1,13 +1,50 @@
 body {
   background: black;
+  color: white;
 }
-
-@@font-face {
-  font-family: 'Starjedi';
-  src: url('assets/fonts/Starjedi.tff');
+.everything-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .game-title {
   color: Yellow;
-  font-family: 'Starjedi', sans-serif;
+  font-family: 'Kanit', sans-serif;
+  font-size: 40px;
+  text-shadow: 4px 4px 2px grey;
+  text-transform: uppercase;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-transform: uppercase;
+  font-family: 'Kanit', sans-serif;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.game-info, .game-instructions-container {
+  color: yellow;
+  text-shadow: 2px 2px 2px grey;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid yellow;
+  box-shadow: 2px 2px 2px grey;
+  padding: 15px;
+  margin: 15px;
+  width: 200px;
+  height: 375px;
+  border-radius: 5px;
+  vertical-align: middle;
+  position: relative;
+  top: 50px;
+}
+
+.game-instructions-container {
+  top: 175px;
+  height: 100px;
 }
