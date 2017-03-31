@@ -3,13 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Imperial Invaders</title>
+    <link rel="stylesheet" href="styling.css">
   </head>
   <body>
     <img src="./assets/images/starfield.jpg" id="starfield" style="display: none;"/>
     <img src="./assets/images/TieFighter.png" id="tiefighter" style="display: none;"/>
     <img src="./assets/images/XWing.png" id="xwing" style="display: none;"/>
-    <canvas id="game" width="400" height="500"></canvas>
     <script type="application/javascript" src="assets/keymaster.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
+    <div class="everything-container">
+      <div class="game-info">
+        Game info goes here
+      </div>
+      <div class="game-container">
+        <div class="game-title">
+          IMPERIAL INVADERS
+        </div>
+        <canvas id="game" width="400" height="500"></canvas>
+      </div>
+      <div class="game-instructions">
+        Use the left and right arrow keys to move. Spacebar to shoot.
+      </div>
+    </div>
   </body>
 </html>
