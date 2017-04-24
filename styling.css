@@ -26,11 +26,12 @@ label {
   font-family: 'Kanit', sans-serif;
   font-size: 24px;
   text-decoration: underline;
+  text-shadow: 2px 2px 2px grey;
 }
 
 .game-info, .game-instructions-container {
   color: yellow;
-  text-shadow: 2px 2px 2px grey;
+  /*text-shadow: 2px 2px 2px grey;*/
   font-family: 'Roboto', sans-serif;
   border: 1px solid yellow;
   box-shadow: 2px 2px 2px grey;
