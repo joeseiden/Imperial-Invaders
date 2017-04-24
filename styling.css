@@ -49,7 +49,7 @@ label {
   height: 100px;
 }
 
-a:link, a:hover, a:active {
+a, a:link, a:hover, a:active {
   color: inherit;
 }
 
