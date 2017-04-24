@@ -31,7 +31,6 @@ label {
 
 .game-info, .game-instructions-container {
   color: yellow;
-  /*text-shadow: 2px 2px 2px grey;*/
   font-family: 'Roboto', sans-serif;
   border: 1px solid yellow;
   box-shadow: 2px 2px 2px grey;
@@ -48,4 +47,17 @@ label {
 .game-instructions-container {
   top: 175px;
   height: 100px;
+}
+
+a:link, a:hover, a:active {
+  color: inherit;
+}
+
+.author-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.author-link {
+  color: white;
 }

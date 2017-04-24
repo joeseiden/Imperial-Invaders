@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Imperial Invaders</title>
+    <script src="https://use.fontawesome.com/28bbb07d56.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Kanit:800i|Roboto|VT323" rel="stylesheet">
     <link rel="stylesheet" href="styling.css">
   </head>
@@ -32,16 +33,26 @@
           IMPERIAL INVADERS
         </div>
         <canvas id="game" width="400" height="500"></canvas>
-        <span class="author-info">My info and links go here</span>
+        <span class="author-info">
+          <a href="https://github.com/joeseiden/Imperial-Invaders">
+            <i class="fa fa-github fa-3x author-link" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/joe-seiden/">
+            <i class="fa fa-linkedin-square fa-3x author-link" aria-hidden="true"></i>
+          </a>
+          <a href="#">
+            <span class="author-link"></span>
+          </a>
+        </span>
       </div>
       <div class="game-instructions-container">
         <label for="instructions">
           Instructions
         </label>
         <div id="instructions">
-          Use ⬅️ and ➡️  to move
+          Use <span class="fa fa-arrow-left" aria-hidden="true"></span> and <span class="fa fa-arrow-right" aria-hidden="true"></span> to move
           <br>
-          Use the spacebar to shoot
+          Press the spacebar to shoot
         </div>
       </div>
     </div>
