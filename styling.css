@@ -55,9 +55,10 @@ a, a:link, a:hover, a:active {
 
 .author-info {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .author-link {
   color: white;
+  margin: 5px;
 }
